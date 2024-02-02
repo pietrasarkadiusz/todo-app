@@ -1,0 +1,38 @@
+:root {
+  --bright-blue: hsl(220, 98%, 61%);
+  --todo-checked: linear-gradient(
+    to right bottom,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+
+  --body-bg: hsl(235, 21%, 11%);
+  --body-bg-img: url('/images/bg-mobile-dark.jpg');
+  --body-bg-img-desktop: url('/images/bg-desktop-dark.jpg');
+  --todo-bg: hsl(235, 24%, 19%);
+  --todo-text: hsl(234, 39%, 85%);
+  --todo-text-hover: hsl(236, 33%, 92%);
+  --todo-border: hsl(233, 14%, 35%);
+  --text-color: hsl(234, 39%, 85%);
+  --text-color-secondary: hsl(235, 19%, 45%);
+  --text-color-hover: var(--todo-text);
+  --text-color-selected: var(--bright-blue);
+
+  [theme='light'] {
+    --body-bg: hsl(0, 0%, 98%);
+    --body-bg-img: url('/images/bg-mobile-light.jpg');
+    --body-bg-img-desktop: url('/images/bg-desktop-light.jpg');
+    --todo-bg: hsl(0, 0%, 100%);
+    --todo-text: hsl(235, 19%, 35%);
+    --todo-text-hover: hsl(236, 33%, 92%);
+    --todo-border: hsl(252, 2%, 91%);
+    --text-color: hsl(234, 39%, 85%);
+    --text-color-secondary: hsl(233, 30%, 84%);
+    --text-color-hover: var(--todo-text);
+    --text-color-selected: var(--bright-blue);
+  }
+}
+
+#app {
+  min-width: 100vw;
+}
