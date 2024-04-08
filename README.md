@@ -33,8 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://your-solution-url.com
-- Live Site URL:
+- Live Site URL: [Todo app](https://pietrasarkadiusz.github.io/todo-app/)
 
 ## My process
 
